@@ -2,7 +2,6 @@ var express = require("express");
 var mysql = require("mysql");
 var exphbs = require("express-handlebars");
 var body = require("body-parser");
-var methodOverride = require('method-override');
 
 var PORT = process.env.PORT || 8080;
 
